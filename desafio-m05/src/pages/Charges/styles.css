@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 35px 80px 45px 180px;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.header-title img {
+  width: 32px;
+  height: 32px;
+}
+
+.header-title span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #3f3f55;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+}
+
+/*Charges não tem add-button*/
+.header-buttons .add-button {
+  all: unset;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 7px;
+
+  width: 266px;
+  height: 33px;
+
+  padding: 4px 56px;
+
+  background: #da0175;
+  border-radius: 10px;
+
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #f8f8f9;
+
+  cursor: pointer;
+}
+
+.header-buttons .buttton-filter {
+  all: unset;
+
+  display: flex;
+
+  padding: 5px;
+
+  background: #ffffff;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.header-buttons .input-search {
+  all: unset;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 39px;
+  width: 318px;
+
+  padding: 7px 8px;
+
+  background: #ffffff;
+  border-radius: 10px;
+
+  font-family: "Nunito", sans-serif;
+}
+
+.content-table {
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+
+  margin-top: 31px;
+  
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 0.005em;
+}
+
+.table-tr {
+  border-bottom: 1px solid #eff0f7;
+}
+
+.table-th-img {
+  margin-bottom: -5px;
+  margin-left: -5px;
+  margin-right: 10px;
+}
+
+.colunm-filter {
+  cursor: pointer;
+}
+
+.table-td {
+  font-size: 14px;
+  padding: 3px 0px;
+}
+
+.table-td-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+  gap: 20px;
+}
+
+.td-button {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  margin-top: 15px;
+
+  cursor: pointer;
+}
+
+.td-button span {
+  margin-top: -15px;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.table-td-status{
+  border-radius: 8px;
+  padding: 2px 8px;
+
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: bolder;
+}
+
+.table-td-red {
+  background: #ffefef;
+  color: #971d1d;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+
+.table-td-yellow {
+  background: #FCF6DC;;
+  color: #C5A605;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+
+.table-td-blue {
+  background: #EEF6F6;
+  color: #1FA7AF;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+
+.td-edit{
+  color: #747488;
+}
+
+.td-delete{
+  color: #AE1100;
+}
+.cclick{
+  cursor: pointer;
+}
+
+.img-editIcon {
+  width: 26px;
+  height: 26px;
+}
+
+.img-deleteIcon {
+  width: 26px;
+  height: 26px;
+}

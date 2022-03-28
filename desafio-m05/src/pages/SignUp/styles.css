@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@400;600&display=swap');
+
+.signup-main {
+    display: flex;
+}
+.signup-main .left {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 30vw;
+}
+.signup-main .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F9;
+    height: 100vh;
+    width: 70vw;
+}
+.signup-main .form-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+.signup-main .form-cadastro h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #343447;
+    margin-bottom: 30px;
+}
+.form-cadastro form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-cadastro label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+    margin-bottom: 5px;
+}
+.form-cadastro input {
+    width: 344px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px 14px;
+}
+.signup-main .right button {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 40px;
+    width: 90px;
+    height: 33px;
+    left: calc(50% - 160px/2 - 0.5px);
+    top: calc(50% - 33px/2 - 0.5px);
+    background: #DA0175;
+    border-radius: 10px;
+    color: #F8F8F9;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.cadastro-ok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cadastro-ok .body-cadastro-ok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 312px;
+    background: #F0F0F5;
+    border-radius: 30px;
+    margin-bottom: 35px;
+}
+.cadastro-ok .body-cadastro-ok img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.cadastro-ok .body-cadastro-ok span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #343447;
+}
+.cadastro-finalizado {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #F8F8F9;
+    text-decoration: none;
+}
+.status-botton {
+    margin-top: 140px;
+}
+form img {
+    width: 20px;
+    height: 20px;
+}
+form .input-senha {
+    position: relative;
+}
+form .olho, .olho {
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.lateral-menu {
+    background-color: #f0f0f5;
+    color: #343447;
+    width: 108px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .itens-nav {
+    margin-top: 54.5px;
+  }
+  
+  .button-nav {
+    margin-bottom: 81.5px;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .button-nav:hover {
+    cursor: pointer;
+  }
+  
+  .new-button {
+    margin-bottom: 81.5px;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #da0175;
+  border-right: 2px solid #da0175;
+  }
+  
+  .new-button:hover {
+    cursor: pointer;
+  }
+

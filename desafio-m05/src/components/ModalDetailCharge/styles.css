@@ -1,0 +1,150 @@
+.modalDC-backdrop {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+  }
+  
+  .modalDC-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  
+    width: 600px;
+    height: 461px;
+    padding: 43px 45px;
+  
+    background: #FFFFFF;
+    border-radius: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+  }
+  .modalDC-backdrop label{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3F3F55;
+  
+  }
+  
+  .modalDC-close-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+  }
+  
+  .modalDC-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .modalDC-title img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .modalDC-title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+  
+    display: flex;
+    align-items: center;
+  
+    color: #3F3F55;
+  }
+  .modalDC-table{
+   display: table;
+    align-items: flex-start;
+   
+    justify-content: space-between;
+   
+    width: 100%;
+    height: 100%;
+    
+  }
+  .modalDC-table-th{
+  text-align: start;
+  
+  
+  border-bottom: 8px;
+  
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3F3F55;
+  
+  }
+  
+  .modalDC-table-td{
+  
+  
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+  
+    color: #3F3F55;
+    }
+  
+    .modalDC-table-description{
+    
+      height: 603px;
+    }
+
+    .modalDC-red {
+        background: #ffefef;
+        color: #971d1d;
+        border-radius: 8px;
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        padding: 0px 10px;
+        
+      }
+      
+      .modalDC-yellow {
+        padding: 0px 10px;
+        border-radius: 8px;
+        background: #FCF6DC;
+        color: #C5A605;
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+      }
+      
+      .modalDC-blue {
+        background: #EEF6F6;
+        color: #1FA7AF;
+        border-radius: 8px;
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        padding: 0px 10px;
+      }
+  

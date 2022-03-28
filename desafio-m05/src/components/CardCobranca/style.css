@@ -1,0 +1,46 @@
+.resume {
+    border-radius: 30px;
+    padding: 23px 5px;
+  
+    color: #3f3f55;
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .resume-img {
+    display: block;
+    margin-right: 46px;
+  }
+  
+  .resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resume-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #3F3F55;
+
+
+  }
+  
+  .resume-value {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #3F3F55;
+  }
+  

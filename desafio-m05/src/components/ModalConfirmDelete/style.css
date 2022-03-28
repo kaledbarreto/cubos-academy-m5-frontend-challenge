@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backdrop-MD {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+  }
+  
+.modal-content-MD {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 600px;
+  height: 400px;
+
+  padding: 43px 45px;
+  
+  background: #FFFFFF;
+  border-radius: 30px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.close-icon-MD {
+  cursor: pointer;
+  position: absolute;
+  right: 55px;
+  top: 48px;
+}
+
+.alert-icon-MD{
+  position: absolute;
+  right: 206px;
+  top: 70px;
+}
+  
+.message-buttons-MD{
+  position: absolute;
+  left: 100px;
+  top: 240px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.message-MD{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  color: #CC7800;
+}
+   
+.buttons-MD{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px
+}
+
+.buttons-MD button{
+  all: unset;
+  cursor: pointer;
+
+  width: 100px;
+  height: 24px;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.buttons-MD .red-button-MD{
+  background: #F2D6D0;
+  color: #AE1100;
+}
+
+.buttons-MD .green-button-MD{
+  background: #ACD9C5;
+  color: #034A2A;
+}
+

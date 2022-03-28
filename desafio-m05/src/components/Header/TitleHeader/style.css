@@ -1,0 +1,28 @@
+.title-header-home {
+    margin-left: 50px;
+  
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #343447;
+  }
+  
+  .title-header-container {
+    display: flex;
+    justify-content:space-between;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: -60px;
+    margin-left: 60px;
+    gap: 5px;
+    
+  }
+  
+  .title-header-prev {
+    color: #0e8750;
+    text-decoration: none;
+  }

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@400;600&display=swap');
+
+
+.alert-cadastro-sucess {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 16px;
+    width: 330px;
+    height: 54px;
+    background: #C3D4FE;
+    box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    position: fixed;
+    top: 500px;
+    right: 80px;
+    color: #243F80;
+    font-family: 'Nunito', sans-serif;
+}
+.close-alert-cadastro-ok {
+    cursor: pointer;
+}

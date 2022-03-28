@@ -1,0 +1,26 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 13px;
+}
+
+.user span {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #0E8750;
+}
+
+.user .user-modal {
+  cursor: pointer;
+}
+.user-avatar {
+  background-color: #DEDEE9;
+  padding: 9px 11px;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 30px;
+}
